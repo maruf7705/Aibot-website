@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Connect Solutions | Enterprise AI Chatbot & Calling Services</title>
+    <meta name="description" content="Premium AI-powered chatbot and voice solutions for enterprise customer engagement with 99.99% uptime and multi-language support">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+    <custom-navbar></custom-navbar>
+    
+    <!-- Hero Section -->
+    <section class="relative bg-indigo-900 text-white overflow-hidden" aria-labelledby="hero-heading">
+        <div id="vanta-bg" class="absolute inset-0 z-0"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+            <div class="md:w-2/3 lg:w-1/2">
+                <h1 id="hero-heading" class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-6">
+                    Elevate Enterprise Communication with AI-Powered Precision
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 leading-relaxed">
+                    Intelligent chatbots and voice solutions for scalable, 24/7 customer interactions—driving efficiency and ROI.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#services" class="bg-white text-indigo-900 hover:bg-indigo-100 px-8 py-4 rounded-md font-semibold text-center transition duration-300">
+                        Discover Solutions
+                    </a>
+                    <button id="demo-btn" class="border-2 border-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-md font-semibold transition duration-300">
+                        Book a Demo
+                    </button>
+                </div>
+                <div class="mt-12 flex flex-wrap gap-6 items-center">
+                    <div class="flex items-center gap-2">
+                        <i data-feather="shield" class="text-blue-300"></i>
+                        <span>GDPR Compliant</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-feather="award" class="text-blue-300"></i>
+                        <span>ISO Certified</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-feather="star" class="text-blue-300"></i>
+                        <span>Trusted by Fortune 500</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white" aria-labelledby="services-heading">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 id="services-heading" class="text-3xl md:text-4xl font-serif font-bold mb-4">
+                    Enterprise-Grade AI Solutions
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Scalable automation solutions designed for complex enterprise environments
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- AI Chatbots Card -->
+                <div class="bg-gradient-to-b from-indigo-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-indigo-500">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                        <i data-feather="message-square" class="text-indigo-600 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">AI Chatbots</h3>
+                    <p class="text-gray-600 mb-6">Tailored conversational agents for omnichannel deployment, integrating NLP for personalized responses and lead qualification.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-indigo-500 mr-2"></i>
+                            <span>70% response time reduction</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-indigo-500 mr-2"></i>
+                            <span>90% accuracy rate</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-indigo-600 font-semibold flex items-center hover:text-indigo-800">
+                        Learn more <i data-feather="arrow-right" class="ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- AI Calling Card -->
+                <div class="bg-gradient-to-b from-indigo-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-blue-500">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i data-feather="phone-call" class="text-blue-600 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">AI Calling</h3>
+                    <p class="text-gray-600 mb-6">Advanced voice AI for automated outbound campaigns, intelligent IVR, and real-time sentiment analysis in calls.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-blue-500 mr-2"></i>
+                            <span>3x call efficiency</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-blue-500 mr-2"></i>
+                            <span>85% customer satisfaction</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-blue-600 font-semibold flex items-center hover:text-blue-800">
+                        Learn more <i data-feather="arrow-right" class="ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Integrations Card -->
+                <div class="bg-gradient-to-b from-indigo-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-purple-500">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i data-feather="layers" class="text-purple-600 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Integrations</h3>
+                    <p class="text-gray-600 mb-6">Seamless API connections to enterprise tools like Salesforce, Microsoft Dynamics, HubSpot, and custom ERPs.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-purple-500 mr-2"></i>
+                            <span>100+ pre-built connectors</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-purple-500 mr-2"></i>
+                            <span>Enterprise-grade security</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-purple-600 font-semibold flex items-center hover:text-purple-800">
+                        Learn more <i data-feather="arrow-right" class="ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-gray-50" aria-labelledby="features-heading">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 id="features-heading" class="text-3xl md:text-4xl font-serif font-bold mb-4">
+                    Built for Enterprise Needs
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Comprehensive features to meet your most demanding requirements
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-10 mb-16">
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-start mb-6">
+                        <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                            <i data-feather="globe" class="text-indigo-600 w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Multi-lingual Support</h3>
+                            <p class="text-gray-600">Natural language processing for 50+ languages and regional dialects with contextual understanding.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-start mb-6">
+                        <div class="bg-blue-100 p-3 rounded-lg mr-4">
+                            <i data-feather="bar-chart-2" class="text-blue-600 w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Advanced Analytics</h3>
+                            <p class="text-gray-600">Real-time dashboards with engagement metrics, A/B testing, and predictive insights for continuous optimization.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-start mb-6">
+                        <div class="bg-purple-100 p-3 rounded-lg mr-4">
+                            <i data-feather="cpu" class="text-purple-600 w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Reliable Infrastructure</h3>
+                            <p class="text-gray-600">99.99% uptime SLA with redundant servers and AI failover mechanisms for uninterrupted operations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-start mb-6">
+                        <div class="bg-green-100 p-3 rounded-lg mr-4">
+                            <i data-feather="lock" class="text-green-600 w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Enterprise Security</h3>
+                            <p class="text-gray-600">End-to-end encryption, compliance with GDPR, CCPA, and SOC 2 Type II certified data protection.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-indigo-900 text-white" aria-labelledby="testimonials-heading">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 id="testimonials-heading" class="text-3xl md:text-4xl font-serif font-bold mb-4">
+                    Trusted by Industry Leaders
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-indigo-800 p-8 rounded-xl">
+                    <div class="flex mb-4">
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300"></i>
+                    </div>
+                    <p class="italic text-lg mb-6">"AI Connect Solutions transformed our customer service operations, reducing costs by 40% while improving satisfaction scores."</p>
+                    <div class="flex items-center">
+                        <div class="mr-4">
+                            <div class="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center">
+                                <span class="font-bold">JD</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Jane Doe</h4>
+                            <p class="text-indigo-200">VP of Customer Experience, GlobalBank</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-indigo-800 p-8 rounded-xl">
+                    <div class="flex mb-4">
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300"></i>
+                    </div>
+                    <p class="italic text-lg mb-6">"The AI calling solution automated 80% of our outbound communications with better conversion rates than human agents."</p>
+                    <div class="flex items-center">
+                        <div class="mr-4">
+                            <div class="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center">
+                                <span class="font-bold">JS</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">John Smith</h4>
+                            <p class="text-indigo-200">Director of Sales, InnovateTech</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-indigo-800 p-8 rounded-xl">
+                    <div class="flex mb-4">
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300 mr-1"></i>
+                        <i data-feather="star" class="text-yellow-300"></i>
+                    </div>
+                    <p class="italic text-lg mb-6">"Implementation was seamless with our existing systems, and the ROI was evident within the first quarter."</p>
+                    <div class="flex items-center">
+                        <div class="mr-4">
+                            <div class="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center">
+                                <span class="font-bold">AB</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Alex Brown</h4>
+                            <p class="text-indigo-200">CIO, HealthPro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Section -->
+    <section class="py-20 bg-white" aria-labelledby="roi-heading">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 id="roi-heading" class="text-3xl md:text-4xl font-serif font-bold mb-4">
+                    Proven Business Impact
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Real-world success stories from our enterprise clients
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-r from-indigo-500 to-blue-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Retail Giant Boosts Conversions by 45%</h3>
+                        <p class="text-gray-600 mb-4">AI chatbots handling 65% of customer inquiries with human-like precision.</p>
+                        <a href="#" class="text-indigo-600 font-semibold flex items-center">
+                            Read Case Study <i data-feather="arrow-right" class="ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-r from-blue-500 to-indigo-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Bank Reduces Support Costs by 60%</h3>
+                        <p class="text-gray-600 mb-4">Voice AI automating 2M+ annual calls with 92% resolution rate.</p>
+                        <a href="#" class="text-blue-600 font-semibold flex items-center">
+                            Read Case Study <i data-feather="arrow-right" class="ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-r from-purple-500 to-indigo-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Healthcare Provider Improves NPS by 35 Points</h3>
+                        <p class="text-gray-600 mb-4">Omnichannel AI delivering personalized patient experiences.</p>
+                        <a href="#" class="text-purple-600 font-semibold flex items-center">
+                            Read Case Study <i data-feather="arrow-right" class="ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mid CTA Section -->
+    <section class="py-16 bg-gray-100" aria-labelledby="mid-cta-heading">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white p-8 md:p-12 rounded-xl shadow-md">
+                <h2 id="mid-cta-heading" class="text-2xl md:text-3xl font-serif font-bold mb-6 text-center">
+                    Unlock Your Custom AI Strategy Today
+                </h2>
+                <form class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                        <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Business Email</label>
+                        <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                    <div>
+                        <label for="company" class="block text-sm font-medium text-gray-700 mb-1">Company Size</label>
+                        <select id="company" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                            <option value="">Select...</option>
+                            <option value="1-100">1-100 employees</option>
+                            <option value="101-500">101-500 employees</option>
+                            <option value="501-1000">501-1,000 employees</option>
+                            <option value="1000+">1,000+ employees</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="interest" class="block text-sm font-medium text-gray-700 mb-1">Interest</label>
+                        <select id="interest" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                            <option value="">Select...</option>
+                            <option value="chatbots">AI Chatbots</option>
+                            <option value="calling">AI Calling</option>
+                            <option value="both">Both Solutions</option>
+                        </select>
+                    </div>
+                    <div class="md:col-span-2">
+                        <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-4 rounded-lg font-semibold transition duration-300">
+                            Get Your Free Consultation
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-indigo-600 to-blue-600 text-white" aria-labelledby="bottom-cta-heading">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 id="bottom-cta-heading" class="text-3xl md:text-4xl font-serif font-bold mb-6">
+                Ready to Transform Your Operations?
+            </h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">
+                Schedule a personalized demo to see our AI solutions in action tailored to your business needs.
+            </p>
+            <button id="schedule-btn" class="bg-white text-indigo-900 hover:bg-indigo-100 px-8 py-4 rounded-md font-semibold transition duration-300">
+                Schedule a Demo Now
+            </button>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <!-- Demo Modal -->
+    <div id="demo-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black bg-opacity-50 p-4">
+        <div class="bg-white rounded-xl max-w-md w-full p-6">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-2xl font-bold">Schedule a Demo</h3>
+                <button id="close-modal" class="text-gray-500 hover:text-gray-700">
+                    <i data-feather="x"></i>
+                </button>
+            </div>
+            <form class="space-y-4">
+                <div>
+                    <label for="demo-name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                    <input type="text" id="demo-name" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div>
+                    <label for="demo-email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                    <input type="email" id="demo-email" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div>
+                    <label for="demo-company" class="block text-sm font-medium text-gray-700 mb-1">Company</label>
+                    <input type="text" id="demo-company" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div>
+                    <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-semibold transition duration-300">
+                        Continue to Scheduling
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize Vanta.js background
+            VANTA.NET({
+                el: "#vanta-bg",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0x3f51b5,
+                backgroundColor: 0x121a2f,
+                points: 12.00,
+                maxDistance: 22.00,
+                spacing: 18.00
+            });
+
+            // Modal controls
+            const demoBtn = document.getElementById('demo-btn');
+            const scheduleBtn = document.getElementById('schedule-btn');
+            const demoModal = document.getElementById('demo-modal');
+            const closeModal = document.getElementById('close-modal');
+
+            function toggleModal() {
+                demoModal.classList.toggle('hidden');
+                demoModal.classList.toggle('flex');
+            }
+
+            if (demoBtn) demoBtn.addEventListener('click', toggleModal);
+            if (scheduleBtn) scheduleBtn.addEventListener('click', toggleModal);
+            if (closeModal) closeModal.addEventListener('click', toggleModal);
+        });
+    </script>
+</body>
+</html>
